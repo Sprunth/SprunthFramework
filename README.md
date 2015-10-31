@@ -8,7 +8,13 @@ To jumpstart:
     game.Initialize("Hello SprunthFramework!");
     game.Run();
   
-Note: Download and add the SFML.net references to the project, and copy the extlibs to the output folder.
+To Setup:
+* Add the SprunthFramework.dll (or the project) to your project.
+* Download and add the SFML.net references to the project, and copy the extlibs to the output folder.
+* Setup Gwen GUI
+  * Download my [Gwen.Net](https://github.com/Sprunth/gwen-dotnet/tree/master/GwenCS) source and compile. Include Gwen.dll and Gwen.Renderer.SFML.dll in the project.
+  * Include Tao.OpenGL.dll in the project (it is provided in the GwenDotNet repository)
+  * Add "DefaultSkin.png" and "OpenSans.ttf" into the project, and select "Copy if Newer" for the "Copy to Output Folder" option. Alternatively, copy the two files to the output directory.
   
 Features:
 * Complete game loop
